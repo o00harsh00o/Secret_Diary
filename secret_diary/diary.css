@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 12, 2020, 7:46:16 PM
+    Author     : Harsh
+*/
+body{
+     font-family: 'Roboto', sans-serif;
+}
+.navbar-brand
+{
+    color:black;
+}
+button{
+    position: relative;
+    top:5px;
+}
+.icon-bar{
+    background-color: black;
+}
+.logout{
+    text-decoration: none;
+    color:#4CAF50;
+}
+.logout:hover
+{
+    color:#FFFFFF;
+}
+.success{
+    background-color: #FFFFFF;
+        color:#4CAF50;
+        
+}
+.success:hover{
+    background-color: #4CAF50;
+    color:#FFFFFF;
+}
+.background-image{
+    
+     
+    background: url(../secret_diary/images/bg-004.jpg) no-repeat center center;
+    background-size:cover;
+    overflow:auto;
+   max-width: 100%;
+}
+.content{
+    padding-top: 50px;
+}
+.textarea{
+    padding-top: 40px;
+}
